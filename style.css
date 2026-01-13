@@ -241,8 +241,13 @@ header{
     flex: 1;
     padding: 20px;
     text-align: center;
+    border-radius: 5px;
+    box-shadow:2px 2px 5px #888888;
 }
-
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 .card h3{
     font-size: 1.5em;
     font-weight: bold;
@@ -305,6 +310,8 @@ header{
     height: auto;
 
 }
+
+
 
 
 .right-content{
